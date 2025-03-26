@@ -1,0 +1,22 @@
+Reference,Value,Footprint,Exclude from BOM,Exclude from Board,Exclude from Simulation,Description,Qty,JLCPCB Part #?optional?
+C1,1u,Capacitor_SMD:C_0402_1005Metric,,,,Unpolarized capacitor,1,C52923
+C3,10uF,Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A,,,,Polarized capacitor,1,C7171
+C4,22uF,Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A,,,,Polarized capacitor,1,C7182
+C5,10uF,Capacitor_SMD:C_0603_1608Metric,,,,Unpolarized capacitor,1,C19702
+C6,1uF,Capacitor_SMD:C_0402_1005Metric,,,,Unpolarized capacitor,1,C52923
+C7,0.01u,Capacitor_SMD:C_0201_0603Metric,,,,Unpolarized capacitor,1,C57112
+"D1,D2,D3",LESD5D5.0CT1G,LESD5D5.0CT1G:TVS_LESD5D5.0CT1G,,,,,3,C383211
+"D4,D5",LED,LED_SMD:LED_0603_1608Metric,,,,Light emitting diode,2,C2286
+"D6,D8",D,Diode_SMD:D_SMA,,,,Diode,2,C511853
+J1,USB_B_Micro,Connector_USB:USB_Micro-B_Wuerth_629105150521,,,,USB Micro Type B connector,1,C2894326
+J3,Screw_Terminal_01x02,TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm,,,,"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",1,C3703
+Q4,IRLZ44N,Package_TO_SOT_THT:TO-220-3_Vertical,,,,"47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB",1,C38774
+"R1,R2,R8",5k,Resistor_SMD:R_0603_1608Metric,,,,Resistor,3,C2828621
+R3,10,Resistor_SMD:R_0603_1608Metric,,,,Resistor,1,C22859
+R4,47.5k,Resistor_SMD:R_0603_1608Metric,,,,Resistor,1,C23061
+R5,22.1k,Resistor_SMD:R_0603_1608Metric,,,,Resistor,1,C137768
+"R11,R12,R13,R14",1k,Resistor_SMD:R_0603_1608Metric,,,,Resistor,4,C21190
+"SW1,SW2",SW_SPST,Button_Switch_SMD:SW_SPST_B3U-1000P,,,,Single Pole Single Throw (SPST) switch,2,C231329
+U2,TMP112xxDRL,Package_TO_SOT_SMD:SOT-563,,,,"Digital Temperature Sensor with I2C/SMBus/Two-wire Interface, 12 bits, ±1°C, one-shot conversion, alert, nist traceable, SOT-563",1,C28927
+U3,AMS1117CD-3.3,Package_TO_SOT_SMD:TO-252-3_TabPin2,,,,"1A Low Dropout regulator, positive, 3.3V fixed output, TO-252",1,C347249
+U4,ESP32-S3-WROOM-1,RF_Module:ESP32-S3-WROOM-1,,,,"RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD",1,C2913204
